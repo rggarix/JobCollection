@@ -1,0 +1,50 @@
+.Menu {
+    position: relative;
+    min-width: 100%;
+    min-height: 8vh;
+    background-color: darkgray;
+    border-radius: 3px;
+    
+}
+.Header {
+    position: absolute;
+    min-width: 10%;
+    min-height: 20vh;
+    text-align: left;
+    display: block;
+    padding-top: 4vh;
+    font-size: 20px;
+    text-decoration: currentColor;
+    
+}
+.List {
+    position: absolute;
+    min-width: 40%;
+    min-height: 8vh;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 14vh;
+    
+}
+.List_item {
+    display: inline;
+    text-align: left;
+    float: left;
+    display: block;
+    
+  padding: 8px;
+  background-color:darkgray;
+}
+.active_class {
+    text-emphasis-color: black;
+    display: inline;
+}
+.Box {
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.VerticalLine {
+    border-right: 10px solid black;
+    line-height: inherit;
+    position: absolute;
+    right: 50%;
+}
